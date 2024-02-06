@@ -1,0 +1,12 @@
+number = []
+while number != "":
+    num = input("Enter a number or press enter to exit: ")
+
+    if num == "":
+        break
+
+    number.append(float(num))
+
+if number:
+    print("Smallest number:", min(number))
+    print("Largest number:",max(number))
